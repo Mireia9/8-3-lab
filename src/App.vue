@@ -1,5 +1,7 @@
 <template>
   <div>Vue 3!</div>
+  <AboutUs></AboutUs>
+  
 </template>
 
 <script>
@@ -7,8 +9,11 @@ import AboutUs from "./components/AboutUs.vue";
 export default {
   name: "App",
   components: {
-    AboutUs
-  }
+    AboutUs,
+}
+
+
+
 };
 </script>
 
